@@ -4,5 +4,5 @@
 const nomes = ["Sofia" , "Pedro" , "Viviane" , "Rebeca" , "Rodrigo"];
 
 for (i = 0 ; i < nomes.length ; i++) {//se não colocar uma variável, fiva como var por baixo dos panos.
-   console.log(nomes[i]);
+   console.log(i + 1 + "º" + " Nome" + ": " + nomes[i]);
 }
